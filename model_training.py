@@ -7,6 +7,7 @@ import joblib
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv1D, MaxPooling1D, Flatten
 from tensorflow.keras.optimizers import Adam
+import time 
 
 # Load the dataset (replace 'hand_landmarks.csv' with the correct file path)
 data = pd.read_csv('hand_landmarks.csv')
