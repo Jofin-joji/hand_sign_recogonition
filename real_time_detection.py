@@ -26,7 +26,7 @@ mp_drawing = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 
 # Google Gemini API configuration
-API_KEY = 'AIzaSyBBRfLUx8CRebFItO20Uuvhz0zA6mMeYpE'  # Replace with your actual API key
+API_KEY = 'YOUR API KEY'  # Replace with your actual API key
 API_URL = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}'
 
 detected_words = []
